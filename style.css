@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div.Limit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(6, 0, 99);
+  color: white;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration-line: underline;
+}
