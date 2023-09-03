@@ -7,10 +7,51 @@ div.Limit {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  background-color: rgb(6, 0, 99);
+  background-color: #1b4368;
   color: white;
   font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px;
-  padding: 5px;
+  font-size: 10px;
+  padding: 5px 0px;
   text-decoration-line: underline;
+}
+div.Menu {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  align-items: center;
+  width: 100%;
+  background-color: #9fbdcc;
+  color: #003f69;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+div.RightMenuBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+ul.Menu {
+  list-style-type: none;
+  margin-left: 55px;
+}
+li.Menu {
+  display: inline-block;
+  margin-left: 12px;
+}
+img {
+  margin-left: 10px;
+}
+.MenuTextDecoration {
+  border-bottom: 1.5px solid #d19e96;
+  padding-bottom: 10px;
+}
+.TextBold {
+  font-weight: bold;
+}
+li.Menu:hover {
+  color: white;
 }
